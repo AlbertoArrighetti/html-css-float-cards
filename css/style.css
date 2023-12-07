@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    /* test  */
+    border: 1px solid red;
 }
 
 /* clearfix */
@@ -12,6 +15,26 @@
     clear: both;
 }
 
+
+
 body{
     font-family: 'Nunito', sans-serif;
+
+    /* test */
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    color: #e53170;
+    font-weight: 900;
+}
+
+
+/* column */
+
+.column{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
 }
