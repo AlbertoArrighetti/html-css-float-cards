@@ -18,12 +18,10 @@ main{
     margin-right: auto;
 }
 
-
-
+/* titolo e paragrafo */
 body{
     font-family: 'Nunito', sans-serif;
 }
-
 #title{
     text-align: center;
     margin-top: 34px;
@@ -37,9 +35,7 @@ p{
     padding-bottom: 40px;
 }
 
-
-/* column */
-
+/* colonne */
 .column{
     width: calc(100% / 3);
     height: 120px;
@@ -47,12 +43,11 @@ p{
     padding: 0px 10px;
     text-align: left;
     float: left;
-
+    margin-bottom: 40px ;
 }
 img{
     width: 120px;
 }
-
 .description{
     float: right;
     width: calc(100% - 120px);
@@ -61,7 +56,6 @@ img{
     background-color: #0f0e17;
     color: white;
 }
-
 .description > *{
     padding-left: 10px;
     padding-top: 12px;
