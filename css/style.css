@@ -3,9 +3,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-    /* test  */
-    border: 1px solid red;
 }
 
 /* clearfix */
@@ -15,7 +12,7 @@
     clear: both;
 }
 main{
-    width: 70%;
+    width: 80%;
 
     margin-left: auto;
     margin-right: auto;
@@ -47,10 +44,9 @@ p{
     width: calc(100% / 3);
     height: 120px;
     
-    float: left;
-    background-color: #0f0e17;
-    color: white;
+    padding: 0px 10px;
     text-align: left;
+    float: left;
 
 }
 img{
@@ -58,13 +54,22 @@ img{
 }
 
 .description{
-    display: inline-block;
-    padding-bottom: 18px;
-    float: left;
+    float: right;
+    width: calc(100% - 120px);
+    height: 100%;
+
+    background-color: #0f0e17;
+    color: white;
+}
+
+.description > *{
+    padding-left: 10px;
+    padding-top: 12px;
 }
 h2{
     font-size: 16px;
     font-weight: 700;
+    font-style: bold;
 }
 h3{
     font-size: 16px;
